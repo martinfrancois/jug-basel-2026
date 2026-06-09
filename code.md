@@ -514,7 +514,7 @@ Map<String, List<String>> productNamesByCategory = products.stream()
     ));
 ```
 
-# Gatherers.windowFixed: Splitting up CSV Tokens
+# Gatherers.windowFixed: Splitting up CSV Tokens (Java 24+)
 
 ```java
 List<String> csvTokens = List.of(
